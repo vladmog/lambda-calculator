@@ -34,7 +34,7 @@ function App() {
       setCalculation(parseFloat(firstNum) - parseFloat(secondNum))
     } else if (operator === "+"){
       setCalculation(parseFloat(firstNum) + parseFloat(secondNum))
-    }
+    } 
   }
 
   return (
